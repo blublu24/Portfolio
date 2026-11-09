@@ -1,0 +1,15 @@
+# Allow-list: only the files the live site needs are published.
+# Raw exports (real names), the résumé (phone number), prompts, notes and tooling stay local.
+/*
+!/index.html
+!/README.md
+!/.gitignore
+
+!/assets/
+/assets/*
+!/assets/works/
+!/assets/HERO/
+/assets/HERO/*
+!/assets/HERO/Gemini_Generated_Image_wm4setwm4setwm4s-removebg-preview_upscaled.png
+
+.DS_Store
