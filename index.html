@@ -827,14 +827,14 @@ const CONTENT = {
     {
       slug: `xpro-delivery`, kind: `design`, device: `phone`,
       title: `Xpro Delivery`,
-      context: [`Mobile app`, `Employer`, `2025–26`],
+      context: [`Mobile app`, `Employer`, `2026`],
       summary: `A driver app that turns a trip ticket into a day's route: scan in, check the truck, run the stops.`,
       role: `UI/UX designer + full-stack developer`,
       tags: [`Mobile UX`, `Driver workflow`, `Design system`],
       built: true,
       tint: { base: `#EEF2E8`, a: `rgb(136 239 27 / .42)`, b: `rgb(79 148 247 / .28)` },
       cover: [`home-active`, `login`, `accept-trip`],
-      overview: { role: `UI/UX designer + full-stack developer`, timeline: `2025–2026`, platform: `Mobile app for delivery drivers`, tools: `Figma, Flutter, Laravel, MySQL`, team: `5 developers at Wing An Marketing; I designed it and built part of it` },
+      overview: { role: `UI/UX designer + full-stack developer`, timeline: `2026`, platform: `Mobile app for delivery drivers`, tools: `Figma, Flutter, Laravel, MySQL`, team: `5 developers at Wing An Marketing; I designed it and built part of it` },
       problem: [
         `Xpro's drivers start every route from a trip ticket. The app has one job: get a driver from that ticket to a finished route with as little typing as possible.`,
         `The old app buried trip details behind extra taps and unlabelled icons, so drivers found it confusing. I talked to drivers regularly while redesigning it, as both its designer and one of its developers.`,
@@ -911,14 +911,14 @@ const CONTENT = {
     {
       slug: `wms-tactical`, kind: `design`, device: `tablet`,
       title: `WMS Tactical`,
-      context: [`Tablet app`, `Employer`, `2025–26`],
+      context: [`Tablet app`, `Employer`, `2026`],
       summary: `A warehouse tablet app that walks crews from the dock door to the truck: receive, palletize, put away, pick, load.`,
       role: `UI/UX designer, helped build it`,
       tags: [`Enterprise UX`, `Tablet`, `Scan-first flows`],
       built: true,
       tint: { base: `#E9ECF4`, a: `rgb(10 47 128 / .26)`, b: `rgb(252 148 48 / .34)` },
       cover: [`receiving-logistics-v2`],
-      overview: { role: `UI/UX designer, helped build it`, timeline: `2025–2026`, platform: `Landscape tablet (1280 × 800)`, tools: `Figma, Flutter (from B4A)`, team: `Multi-developer team at Wing An Marketing; I designed a subset of the screens` },
+      overview: { role: `UI/UX designer, helped build it`, timeline: `2026`, platform: `Landscape tablet (1280 × 800)`, tools: `Figma, Flutter (from B4A)`, team: `Multi-developer team at Wing An Marketing; I designed a subset of the screens` },
       problem: [
         `A warehouse moves stock through the same hand-offs every day: dock, count, pallet, shelf, pick, truck. Each hand-off is a chance to lose count. WMS Tactical puts every step on one tablet, built around the scanner.`,
         `It replaces a legacy Basic4Android app ahead of a full Flutter rebuild. The hard part: every screen needs a lot of buttons, cards and data fields, and none of it can feel crammed for a crew mid-shift.`
@@ -1173,8 +1173,8 @@ const CONTENT = {
   ],
   */
   socials: [
+    { label: `LinkedIn`, aria: `Asher Blue on LinkedIn`, url: `https://www.linkedin.com/in/asher-blue-basco-76751644a/` },
     { label: `GitHub`, aria: `Asher Blue on GitHub`, url: `https://github.com/blublu24` }
-    /* LinkedIn: add { label: `LinkedIn`, aria: `Asher Blue on LinkedIn`, url: `…` } once the profile is live */
   ],
   /* "Experience" list now shows the working process (no invented employers). */
   experienceLabel: `How I work`,
@@ -1229,7 +1229,7 @@ const PATHS = {
   resume: `${ASSET_BASE}/resume.pdf`
 };
 /* Flip a flag to true once that optional file exists. Missing optional files are skipped with console.info. */
-const HAVE = { personPng: false, resume: false, avatars: false, logos: false };
+const HAVE = { personPng: false, resume: true, avatars: false, logos: false };
 /* ============================================================
    WORKS_MEDIA: every case-study image, in one place.
    File = assets/works/<dir>/<key>.webp. w/h are the file's pixel size (they set the aspect

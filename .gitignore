@@ -1,5 +1,5 @@
 # Allow-list: only the files the live site needs are published.
-# Raw exports (real names), the résumé (phone number), prompts, notes and tooling stay local.
+# Raw exports (real names), prompts, notes and tooling stay local. resume.pdf is the public copy (no phone number).
 /*
 !/index.html
 !/README.md
@@ -9,6 +9,7 @@
 /assets/*
 !/assets/works/
 !/assets/HERO/
+!/assets/resume.pdf
 /assets/HERO/*
 !/assets/HERO/Gemini_Generated_Image_wm4setwm4setwm4s-removebg-preview_upscaled.png
 
